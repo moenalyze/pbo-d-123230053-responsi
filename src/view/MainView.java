@@ -212,10 +212,10 @@ public class MainView extends javax.swing.JFrame {
 //        int jumlahUnit = efisiensi / 100 * (jamKerja * biayaTenagaKerja)
         
         jTextFieldNama.setText(nama);
+        jTextFieldJumlahUnit.setText("jumlah unit");
+        jTextFieldJamKerja.setText("jam kerja");
+        jTextFieldJumlahTenagaKerja.setText("jumlah tenaga kerja");
         jTextFieldBiayaBahanBaku.setText("biaya");
-//        jTextFieldJamKerja.setText(jTableProduksi.getValueAt(baris,2).toString());
-//        jTextFieldJumlahTenagaKerja.setText(jTableProduksi.getValueAt(baris,3).toString());
-//        jTextFieldBiayaBahanBaku.setText(jTableProduksi.getValueAt(baris,4).toString());
     }//GEN-LAST:event_jTableProduksiMouseClicked
 
     private void jButtonDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDeleteActionPerformed
